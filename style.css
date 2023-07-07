@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.container {
+    background-color: #212121;
+    padding: 50px;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boasvindas {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 150px;
+    font-size: xx-large;
+}
+
+.ola {
+    color: gold;
+}
+
+header {
+    padding: 0px 0px 5px 0px;
+    background-color: gold;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+h3.add_cartao {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 25px;
+    padding-right: 5px;
+    font-weight: normal;
+}
+
+.cartao-imagem {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.ver_transacao {
+    margin-left: auto;
+    margin-right: 25px;
+    padding-right: 5px;
+    font-weight: normal;
+}
+
+.container_transacao {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.texto_pizza {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.pizza_nome,
+.pizza_dia {
+    margin: 0;
+}
+
+.texto_pizza_final {
+    margin-left: auto;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.mercado {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.texto_mercado {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.mercado_nome,
+.mercado_dia {
+    margin: 0;
+}
+
+.texto_mercado_final {
+    margin-left: auto;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.jogo {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.texto_jogo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.jogo_nome,
+.jogo_dia {
+    margin: 0;
+}
+
+.texto_jogo_final {
+    margin-left: auto;
+    text-align: right;
+    padding-right: 5px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    /* Estilos para dispositivos com telas médias */
+    .texto_pizza_final,
+    .texto_mercado_final,
+    .texto_jogo_final {
+        margin-left: auto;
+        margin-right: 25px;
+        text-align: right;
+        padding-right: 5px;
+        font-weight: normal;
+    }
+}
+
+.texto_pizza_final, .texto_mercado_final, .texto_jogo_final{
+    color: red;
+    font-weight: bold;
+}
+
+/* .dashboard{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at center, white, blue, red);
+} */
+  
+  .dashboard{
+    margin-left: 20px;
+  }
+
+  .buttom_transicao{
+    text-align: center;
+    padding-inline-start: 50% ;
+    color: white;
+  }
+
+  .text_dashboard_do_mes{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+
+  .info_dashboard{
+    margin-left: 40px;
+    text-align: center;
+    padding-right: 5px;
+    display: block;
+  }
+
+  .container_dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
